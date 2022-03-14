@@ -1,24 +1,25 @@
-# Module 1 Inventory App
+# Introduction
 
 An inventory app for 4 "warehouses." Each warehouse displays a list of all items in its aisles. The user can view details of each item (name, price, description and category) by clicking on any specific item from the list. A new item can be added in each aisle by submitting the form. An item can also be edited or removed from the warehouse.
 
+
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+- **[Overview](#overview)**
+  - [Objectives](#objectives)
+  - [Screenshots](#screenshots)
+  - [Deployment](#deployment)
+- **[Development](#development)**
+  - [Technologies](#technologies)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Collaborators](#collaborators)
+  - [Setup](#setup)
+- **[Collaborators](#collaborators)**
+- **[Competencies](#competencies)**
 
 
 ## Overview
 
-### The challenge
+### Objectives:
 
 Users should be able to:
 
@@ -29,20 +30,29 @@ Users should be able to:
 - Edit an item through completing a front-end form
 - Observe that the app is mobile-friendly
 
+Stretch goals (to-do):
 
-### Screenshot
+- Add shopping cart functionality
+- Create models/routes for users & orders
+- Implement login
 
-![img|25%](images/ScreenShot.png)
+### Screenshots
+<details>
+  <summary>Click to expand!</summary>
+
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/landing-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/warehouses-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-warehouse-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-item-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/form-desktop.png" width=40% height=40%>
+ 
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/landing-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/warehouses-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-warehouse-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-item-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/form-mobile.png" width=25% height=25%> 
+</details>
+
+### Deployment
+
+- This app is deployed on [Heroku](https://brilliant-bananas-project.herokuapp.com/)
 
 
-### Links
+## Development
 
-- Application URL: [Deployed on Heroku](https://brilliant-bananas-project.herokuapp.com/)
-
-
-## My process
-
-### Built with
+### Technologies
 
 - SQLite
 - Sequelize
@@ -60,21 +70,21 @@ Users should be able to:
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-
-### How to install & run:
-- Clone 
-- npm install 
-- node bin/populateDB.js (npm run seed)
-- node server.js (npm start)
+### Setup:
+```
+$ cd ../project_name
+$ npm install
+$ npm run seed
+$ npm start
+```
 
 
-### Collaborators:
+## Collaborators:
 - Chad (ceckles)
 - Sharon (sharon3233)
 - Lindsey (l1nd53y)
 - Afreen (afreensafdar)
+
+## Competencies:
+-
+-
