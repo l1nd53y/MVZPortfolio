@@ -23,18 +23,18 @@ An inventory app for 4 "warehouses." Each warehouse displays a list of all items
 
 Users should be able to:
 
-- View all items in the inventory
-- View any individual item in the inventory
-- Add an item to the inventory through completing a front-end form
-- Delete an item from the inventory (delete button on single item view)
-- Edit an item through completing a front-end form
-- Observe that the app is mobile-friendly
+- [x] View all items in the inventory
+- [x] View any individual item in the inventory
+- [x] Add an item to the inventory through completing a front-end form
+- [x] Delete an item from the inventory (delete button on single item view)
+- [x] Edit an item through completing a front-end form
+- [x] Observe that the app is mobile-friendly
 
 Stretch goals (to-do):
 
-- Add shopping cart functionality
-- Create models/routes for users & orders
-- Implement login
+- [ ] Add shopping cart functionality
+- [ ] Create models/routes for users & orders
+- [ ] Implement login
 
 ### Screenshots
 <details>
@@ -86,5 +86,5 @@ $ npm start
 - Afreen (afreensafdar)
 
 ## Competencies:
--
--
+- **J.F 1.7:** *Demonstrates creativity and tenacity in their approach to solutions and the methods used to come to a solution for example, sees the task through to the end by devising new solutions and despite obstacles and problems along the way.*
+  - Blah
