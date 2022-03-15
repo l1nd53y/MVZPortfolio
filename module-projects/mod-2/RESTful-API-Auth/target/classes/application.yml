@@ -1,0 +1,18 @@
+audience: LightNote
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          auth0:
+            client-id: JyxLK8oCChSIBGVniHhOpwfWyu7ISfSS
+            client-secret: VmtmXsmsgNeDMiM_Nj7t6BXv4ie6QSjbd541svokcxYU-_wh7QLYcGchZIReBNpN
+            scope:
+              - openid
+              - profile
+              - email
+        provider:
+          auth0:
+            # trailing slash is important!
+            #            audience: LightNote
+            issuer-uri: https://dev-1nyz7xyl.us.auth0.com/
