@@ -2,7 +2,7 @@
 
 <blockquote>Light Yagami (aka "Kira") is an ambitious student who wants to build a better world... at any cost necessary. Create an API for his Death Note, where he may add, update, and retrieve the names, photos, and cause of death of "criminals" who must be "deleted." This Death Note must be kept away from Interpol and the Detective L, who are looking to discover the identity of the mysterious "Kira."</blockquote>
 
-This is a RESTful API that implements both an Auth0 login and requires a bearer token for a User to interact with the database.
+This is a RESTful API that implements both an Auth0 login and requires a bearer token for a User to interact with the database - stored passwords are hashed.
 
 
 ## Table of contents
@@ -32,7 +32,6 @@ Users should be able to:
 - [x] Log in to the API
 - [x] Encrypt sensitive info in the database
 - [x] Protect info from unauthorized users
-- [x] As an unauthorized User, see a message that user does not have access to API
 - [x] As potential User, be able to sign up for API
 - [x] Be granted authorization to API as a signed-up User
 
@@ -45,9 +44,11 @@ Stretch goals (to-do):
 <details>
   <summary>Click to expand!</summary>
 
-<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/landing-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/warehouses-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-warehouse-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-item-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/form-desktop.png" width=40% height=40%>
- 
-<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/landing-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/warehouses-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-warehouse-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-item-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/form-mobile.png" width=25% height=25%> 
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/auth0.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/logged-in.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/browser-view-criminals.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/bearer-token.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/MySQL-view-users.png" width=70% height=70%>
+---
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/POST-register-user.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/PUT-user.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/GET-users.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/GET-user.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/DELETE-user.png" width=70% height=70%> 
+--- 
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/POST-criminal.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/PUT-criminal.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/GET-criminals.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/GET-criminal.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/DELETE-criminal.png" width=70% height=70%>
 </details>
 
 <!-- ### Deployment
@@ -74,10 +75,20 @@ Use this section to recap over some of your major learnings while working throug
 
 ### Setup:
 ```
-$ cd ../project_name
-$ npm install
-$ npm run seed
-$ npm start
+Clone and run project connected to a local database named "lightnote"~
+
+In postman with bearer token:
+GET http://localhost:8080/api/users - retrieve all existing users
+GET http://localhost:8080/api/users/{id} - retrieve specific user
+POST http://localhost:8080/api/users/register - add user
+PUT http://localhost:8080/api/users/{id} - edit user
+DELETE http://localhost:8080/api/users/{id} - delete user
+
+GET http://localhost:8080/api/criminals - retrieve all existing criminals
+GET http://localhost:8080/api/criminals/{id} - retrieve specific criminal
+POST http://localhost:8080/api/criminals - add criminal
+PUT http://localhost:8080/api/criminals/{id} - edit criminal
+DELETE http://localhost:8080/api/criminals/{id} - delete criminal
 ```
 
 
