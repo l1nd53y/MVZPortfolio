@@ -1,42 +1,92 @@
-# LightNote
+# Introduction | LightNote - A RESTful API with auth
+
+<blockquote>Light Yagami (aka "Kira") is an ambitious student who wants to build a better world... at any cost necessary. Create an API for his Death Note, where he may add, update, and retrieve the names, photos, and cause of death of "criminals" who must be "deleted." This Death Note must be kept away from Interpol and the Detective L, who are looking to discover the identity of the mysterious "Kira."</blockquote>
+
+This is a RESTful API that implements both an Auth0 login and requires a bearer token for a User to interact with the database.
 
 
-# Team Constitution
-  1. Always have a morning standup
-  2. Always have at least 2 other people review code before merging it. (Don't merge your own code)
-  3. NO PUSHING TO MAIN 
-  4. Complete the work you agree to.
-  5. Communicate EARLY if you are struggling with a task.
-  6. Communicate to the team if you are going to be gone or unavailable during normal hours.
-  7. Hear and respect other people's ideas
+## Table of contents
+
+- **[Overview](#overview)**
+  - [Objectives](#objectives)
+  - [Screenshots](#screenshots)
+  <!-- - [Deployment](#deployment) -->
+- **[Development](#development)**
+  - [Technologies](#technologies)
+  - [What I learned](#what-i-learned)
+  - [Setup](#setup)
+- **[Collaborators](#collaborators)**
+- **[Competencies](#competencies)**
 
 
+## Overview
 
-# Project Tiers
-# Tier 1
+### Objectives:
 
-    As a User, I want to read entries from the database
-    As a User, I want to add entries to the database
-    As a User, I want to delete entries from the database
-    As a User, I want to edit entries in the database
-    As a User, I expect to do all of the above by accessing RESTful routes
+Users should be able to:
 
-# Tier 2
+- [x] Read entries from the database
+- [x] Add entries to the database
+- [x] Delete entries from the database
+- [x] Edit entries in the database
+- [x] Log in to the API
+- [x] Encrypt sensitive info in the database
+- [x] Protect info from unauthorized users
+- [x] As an unauthorized User, see a message that user does not have access to API
+- [x] As potential User, be able to sign up for API
+- [x] Be granted authorization to API as a signed-up User
 
-    As a User, I want to be able to log in to my API
-    As a User, I want my sensitive info to be encrypted in the database
+Stretch goals (to-do):
 
-# Tier 3
+- [ ] Further develop front end of application
+- [ ] Optimize authorization implementation
 
-    As a User, I want my API protected from unauthorized Users
-    As an unauthorized User, I want a helpful message telling me I do not have access to the API
+### Screenshots
+<details>
+  <summary>Click to expand!</summary>
 
-# Tier 4
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/landing-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/warehouses-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-warehouse-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-item-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/form-desktop.png" width=40% height=40%>
+ 
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/landing-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/warehouses-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-warehouse-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-item-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/form-mobile.png" width=25% height=25%> 
+</details>
 
-    As a potential User, I want to be able to sign up for the API
-    As a signed-up User, I want to be granted authorization to access teh API
+<!-- ### Deployment
 
-# Bonus Tier
+- This app is deployed on [Heroku](https://) -->
 
-    As a User, I want to be able to use a client-side form to Log in/out of my application
-    As a User, I want to be able to sign up using a client-side form.
+
+## Development
+
+### Technologies
+
+- Java
+- Spring
+- MySQL
+- Postman
+- Auth0
+- Git
+
+
+### What I learned
+
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+
+### Setup:
+```
+$ cd ../project_name
+$ npm install
+$ npm run seed
+$ npm start
+```
+
+
+## Collaborators:
+- Lindsey (l1nd53y)
+- Crystal (CrystalMorris)
+- Nate (nzeru17)
+- Michael (Ainouzmichael)
+
+## Competencies:
+- **J.F 2.2:** *Understands how to create and analyze artefacts, such as use cases and/or user stories*
+  - Blah
