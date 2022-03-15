@@ -1,8 +1,8 @@
-# Introduction | LightNote - A RESTful API with auth
+# Introduction | LightNote - RESTful API with auth
 
 <blockquote>Light Yagami (aka "Kira") is an ambitious student who wants to build a better world... at any cost necessary. Create an API for his Death Note, where he may add, update, and retrieve the names, photos, and cause of death of "criminals" who must be "deleted." This Death Note must be kept away from Interpol and the Detective L, who are looking to discover the identity of the mysterious "Kira."</blockquote>
 
-This is a RESTful API that implements both an Auth0 login and requires a bearer token for a User to interact with the database - stored passwords are hashed.
+This is a RESTful API that implements both an Auth0 SSO login and requires a bearer token for a User to interact with the database - stored passwords are hashed.
 
 
 ## Table of contents
@@ -78,7 +78,7 @@ Use this section to recap over some of your major learnings while working throug
 ```
 Clone and run project connected to a local database named "lightnote"~
 
-In postman with bearer token:
+Using POSTMAN with BEARER TOKEN:
 GET http://localhost:8080/api/users - retrieve all existing users
 GET http://localhost:8080/api/users/{id} - retrieve specific user
 POST http://localhost:8080/api/users/register - add user
