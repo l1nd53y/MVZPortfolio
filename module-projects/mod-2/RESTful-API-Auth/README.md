@@ -39,6 +39,7 @@ Stretch goals (to-do):
 
 - [ ] Further develop front end of application
 - [ ] Optimize authorization implementation
+- [ ] Deploy application
 
 ### Screenshots
 <details>
