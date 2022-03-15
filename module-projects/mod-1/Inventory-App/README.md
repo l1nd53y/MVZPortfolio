@@ -1,4 +1,4 @@
-# Introduction
+# Introduction | Brilliant Bananas Warehouse Inventory App
 
 An inventory app for 4 "warehouses." Each warehouse displays a list of all items in its aisles. The user can view details of each item (name, price, description and category) by clicking on any specific item from the list. A new item can be added in each aisle by submitting the form. An item can also be edited or removed from the warehouse.
 
