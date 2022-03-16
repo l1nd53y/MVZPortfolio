@@ -70,7 +70,7 @@ SINGLE AISLE AFTER<br>
 ### Deployment
 
 - This app is deployed on [Heroku](https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/CICD-Docker-Updated-Feature/Mod3-Presentation.pdf)
-- Project presentation can be viewed [here]()
+- Project presentation can be viewed [here](https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/CICD-Docker-Updated-Feature/Mod3-Presentation.pdf)
 
 
 ## Development
