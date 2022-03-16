@@ -1,4 +1,4 @@
-# Introduction | Tie My Knot Wedding Registry App
+# Introduction | TieMyKnot Wedding Registry App
 
 The application will allow couples to post registry gift requests and view the purchase status of registry gifts. It will also allow all guests to view the purchase status of gifts, reserve gifts they intend to purchase, update the purchase status of the gift they reserved.
 
@@ -8,7 +8,7 @@ The application will allow couples to post registry gift requests and view the p
 - **[Overview](#overview)**
   - [Objectives](#objectives)
   - [Screenshots](#screenshots)
-  - [Deployment](#deployment)
+  - [Links](#links)
 - **[Development](#development)**
   - [Technologies](#technologies)
   - [What I learned](#what-i-learned)
@@ -23,46 +23,45 @@ The application will allow couples to post registry gift requests and view the p
 
 Users should be able to:
 
-- [x] View all items in the inventory
-- [x] View any individual item in the inventory
-- [x] Add an item to the inventory through completing a front-end form
-- [x] Delete an item from the inventory (delete button on single item view)
-- [x] Edit an item through completing a front-end form
-- [x] Observe that the app is mobile-friendly
+- [x] Post registry gift requests
+- [x] Add items to the registry by filling out a form
+- [x] Allow guests to view a registry
+- [x] Allow guests to "reserve" item(s) from registry
+- [x] Observe application's responsiveness and that A11Y criteria is met
+
 
 Stretch goals (to-do):
 
-- [ ] Add shopping cart functionality
-- [ ] Create models/routes for users & orders
+- [ ] Optimize app's responsiveness
+- [ ] Improve functionality
 - [ ] Implement login
 
 ### Screenshots
 <details>
   <summary>Click to expand!</summary>
 
-<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/landing-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/warehouses-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-warehouse-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-item-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/form-desktop.png" width=40% height=40%>
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Wedding-Registry/screenshots/desktop-landing.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Wedding-Registry/screenshots/desktop-view-reg.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Wedding-Registry/screenshots/desktop-single-reg.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Wedding-Registry/screenshots/desktop-create-reg.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Wedding-Registry/screenshots/desktop-add-item.png" width=70% height=70%>
  
-<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/landing-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/warehouses-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-warehouse-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-item-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/form-mobile.png" width=25% height=25%> 
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Wedding-Registry/screenshots/mobile-landing.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Wedding-Registry/screenshots/mobile-view-reg.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Wedding-Registry/screenshots/mobile-single-reg.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Wedding-Registry/screenshots/mobile-create-reg.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Wedding-Registry/screenshots/mobile-add-item.png" width=25% height=25%> 
 </details>
 
-### Deployment
+### Links
 
-- This app is deployed on [Heroku](https://brilliant-bananas-project.herokuapp.com/)
+- Presentation for this project can be viewed [here](https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Wedding-Registry/Wedding-Registry-Presentation.pdf)
 
 
 ## Development
 
 ### Technologies
 
-- SQLite
-- Sequelize
+- Javascript
 - Node.js
 - Express
-- Handlebars
+- React
+- Material-UI
+- Sequelize
+- SQLite3
 - Jest
-- CSS
-- Git
-- Heroku
 
 
 ### What I learned
@@ -74,17 +73,17 @@ Use this section to recap over some of your major learnings while working throug
 ```
 $ cd ../project_name
 $ npm install
-$ npm run seed
-$ npm start
+$ npm run start-Backend
+$ npm run start-FrontEnd
 ```
 
 
 ## Collaborators:
-- Chad (ceckles)
-- Sharon (sharon3233)
 - Lindsey (l1nd53y)
-- Afreen (afreensafdar)
+- Chad (ceckles)
+- Crystal (CrystalMorris)
+- Nate (nzeru17)
 
 ## Competencies:
-- **J.F 1.7:** *Demonstrates creativity and tenacity in their approach to solutions and the methods used to come to a solution for example, sees the task through to the end by devising new solutions and despite obstacles and problems along the way.*
+- **J.F 3.3:** *Understands how to develop effective user interfaces*
   - Blah
