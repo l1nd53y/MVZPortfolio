@@ -10,7 +10,7 @@ This is a RESTful API that implements both an Auth0 SSO login and requires a bea
 - **[Overview](#overview)**
   - [Objectives](#objectives)
   - [Screenshots](#screenshots)
-  <!-- - [Deployment](#deployment) -->
+  - [Links](#links)
 - **[Development](#development)**
   - [Technologies](#technologies)
   - [What I learned](#what-i-learned)
@@ -52,9 +52,9 @@ Stretch goals (to-do):
 <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/POST-criminal.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/PUT-criminal.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/GET-criminals.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/GET-criminal.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/DELETE-criminal.png" width=70% height=70%>
 </details>
 
-<!-- ### Deployment
+### Links
 
-- This app is deployed on [Heroku](https://) -->
+- Presentation for this project can be viewed [here](https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/LightbookPresentation.pdf)
 
 
 ## Development
