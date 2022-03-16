@@ -46,14 +46,31 @@ Stretch goals (to-do):
 <details>
   <summary>Click to expand!</summary>
 
-<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/landing-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/warehouses-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-warehouse-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-item-desktop.png" width=40% height=40%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/form-desktop.png" width=40% height=40%>
+See all screenshots from original app [here](https://github.com/l1nd53y/MVZPortfolio/tree/main/module-projects/mod-1/Inventory-App#screenshots)
+
+MODIFIED LANDING PAGE<br>
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/CICD-Docker-Updated-Feature/screenshots/updated-landing.png" width=70% height=70%> 
+  
+AUTH0 ADDITION<br>
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/CICD-Docker-Updated-Feature/screenshots/auth-addition.png" width=70% height=70%>
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/CICD-Docker-Updated-Feature/screenshots/updated-warehouses.png" width=70% height=70%> 
+  
+SINGLE AISLE BEFORE<br>
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/CICD-Docker-Updated-Feature/screenshots/before-single-warehouse-update.png" width=70% height=70%><br>
+SINGLE AISLE AFTER<br>
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/CICD-Docker-Updated-Feature/screenshots/updated-single-warehouse-list-view.png" width=70% height=70%>
  
-<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/landing-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/warehouses-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-warehouse-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/single-item-mobile.png" width=25% height=25%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Inventory-App/screenshots/form-mobile.png" width=25% height=25%> 
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/CICD-Docker-Updated-Feature/screenshots/docker.png" width=70% height=70%> 
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/CICD-Docker-Updated-Feature/screenshots/github-actions-1.png" width=70% height=70%>
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/CICD-Docker-Updated-Feature/screenshots/github-actions-2.png" width=70% height=70%>
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/CICD-Docker-Updated-Feature/screenshots/heroku-container.png" width=70% height=70%>
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/CICD-Docker-Updated-Feature/screenshots/heroku-deployment.png" width=70% height=70%> 
 </details>
 
 ### Deployment
 
-- This app is deployed on [Heroku](https://mod3-project.herokuapp.com/)
+- This app is deployed on [Heroku](https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/CICD-Docker-Updated-Feature/Mod3-Presentation.pdf)
+- Project presentation can be viewed [here]()
 
 
 ## Development
