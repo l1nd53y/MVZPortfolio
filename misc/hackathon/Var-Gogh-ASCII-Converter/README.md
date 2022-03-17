@@ -34,6 +34,7 @@ Stretch goals (to-do):
 - [ ] Deploy application
 
 ### Screenshots
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/misc/hackathon/Var-Gogh-ASCII-Converter/client/public/images/planet.jpeg" width=70% height=70%>
 <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/misc/hackathon/Var-Gogh-ASCII-Converter/screenshots/demo.png" width=70% height=70%> 
 
 ### Links
