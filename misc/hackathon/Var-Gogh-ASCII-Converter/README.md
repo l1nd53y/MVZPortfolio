@@ -1,6 +1,6 @@
 # Introduction | Var Gogh - ASCII Art Generator for Thrive Hackathon
 
-**Two day** hackathon project: create ASCII image converter application that takes an image and converts it to an ASCII "image."
+**Two day** VZ Hackathon project: create ASCII image converter application that takes an image and converts it to an ASCII "image."
 
 
 ## Table of contents
@@ -23,15 +23,7 @@
 
 Users should be able to:
 
-- [x] Read entries from the database
-- [x] Add entries to the database
-- [x] Delete entries from the database
-- [x] Edit entries in the database
-- [x] Log in to the API
-- [x] Encrypt sensitive info in the database
-- [x] Protect info from unauthorized users
-- [x] As potential User, be able to sign up for API
-- [x] Be granted authorization to API as a signed-up User
+- [x] Convert an image to ASCII art "image"
 
 Stretch goals (to-do):
 
@@ -39,21 +31,14 @@ Stretch goals (to-do):
 - [ ] Add feature to copy and/or save "image" for easier use in forums, chats, etc.
 - [ ] Expand support for more input file types
 - [ ] Provide correction for consistent "image" sizing & proportions
+- [ ] Deploy application
 
 ### Screenshots
-<details>
-  <summary>Click to expand!</summary>
-
-<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/auth0.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/logged-in.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/browser-view-criminals.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/bearer-token.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/MySQL-view-users.png" width=70% height=70%>
----
-<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/POST-register-user.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/PUT-user.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/GET-users.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/GET-user.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/DELETE-user.png" width=70% height=70%> 
---- 
-<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/POST-criminal.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/PUT-criminal.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/GET-criminals.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/GET-criminal.png" width=70% height=70%> <img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-2/RESTful-API-Auth/screenshots/DELETE-criminal.png" width=70% height=70%>
-</details>
+<img src="https://github.com/l1nd53y/MVZPortfolio/blob/main/misc/hackathon/Var-Gogh-ASCII-Converter/screenshots/demo.png" width=70% height=70%> 
 
 ### Links
 
-- Presentation for this project can be viewed [here](https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-3/)
+- Presentation for this project can be viewed [here](https://github.com/l1nd53y/MVZPortfolio/blob/main/misc/hackathon/Var-Gogh-ASCII-Converter/VarGogh-Presentation.pdf)
 
 
 ## Development
@@ -76,6 +61,7 @@ Use this section to recap over some of your major learnings while working throug
 ### Setup:
 ```
 - Clone project
+$ cd ../project_name
 $ npm install
 - Add or select image you'd like to convert in client/public/images folder
 - Modify filepath in convert.js to desired image
