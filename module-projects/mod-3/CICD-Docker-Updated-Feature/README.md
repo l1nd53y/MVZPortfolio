@@ -110,6 +110,7 @@ $ npm start
 - Elizabeth (e-abraham)
 - Abdi (Abdi-Aden)
 - James (jamesg88)
+- Ayman (Ayman-zaki)
 
 ## Competencies:
 - **J.F 1.7:** *Demonstrates creativity and tenacity in their approach to solutions and the methods used to come to a solution for example, sees the task through to the end by devising new solutions and despite obstacles and problems along the way.*
