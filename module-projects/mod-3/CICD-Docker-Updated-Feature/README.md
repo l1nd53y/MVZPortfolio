@@ -93,7 +93,7 @@ SINGLE AISLE AFTER<br>
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned about CI/CD, and using GitHub Actions and Docker to implement changes being made to a pre-existing project.
 
 
 ### Setup:
@@ -113,5 +113,17 @@ $ npm start
 - Ayman (Ayman-zaki)
 
 ## Competencies:
-- **J.F 1.7:** *Demonstrates creativity and tenacity in their approach to solutions and the methods used to come to a solution for example, sees the task through to the end by devising new solutions and despite obstacles and problems along the way.*
-  - Blah
+- **J.F 2.4:** *Demonstrates commitment to continued professional development.*
+  - Showed commitment to professional development/improvement through improving a previous project using new concepts/technologies such as CI/CD, Docker, and GitHub Actions
+
+- **J.F 3.3:** *Understands how to develop effective user interfaces*
+  - Improved the UI of previous page (single aisle view) in the project to be more useful/attractive
+
+- **J.F 4.8:** *Is able to interpret and implement a given design whilst remaining compliant with security and maintainability requirements*
+  - Analyzed/interpreted the previous codebase design and maintained pre-existing functionality while adding new security feature
+  
+- **J.F 6.2:** *Understands how to follow company, team or client approaches to continuous integration, version and source control*
+  - Project involved CI/CD concepts using Docker/Heroku/GitHub Actions and Git.
+
+- **J.F 6.5:** *Works collaboratively with a wide range of people in different roles, internally and externally, with a positive attitude to inclusion & diversity*
+  - Not only did I collaborate with a team for this project, but in a way it also involved collaborating with the group who created the original version of the project we were improving, through understanding the pre-existing codebase and project structure
