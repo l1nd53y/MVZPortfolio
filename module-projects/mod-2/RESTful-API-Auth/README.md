@@ -71,7 +71,7 @@ Stretch goals (to-do):
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned how to implement Auth0 and experienced trying to implement different authentication menthods (basic auth, etc.) in addition to learning how to require a bearer token for security purposes.
 
 
 ### Setup:
@@ -100,5 +100,20 @@ DELETE http://localhost:8080/api/criminals/{id} - delete criminal
 - Michael (Ainouzmichael)
 
 ## Competencies:
-- **J.F 2.2:** *Understands how to create and analyze artefacts, such as use cases and/or user stories*
-  - Blah
+- **J.F 1.4:** *Knows the similarities and differences between different software development methodologies, such as agile and waterfall.*
+  - Utlized Agile methodology through daily stand-ups and working towards MVP - aware of "waterfall" method but did not use it, since Agile is the preferred method
+
+- **J.F 3.4:** *Able to create simple software designs to effectively communicate understanding of the program*
+  - Despite this project's "UI" being very simple, even maybe underdeveloped, we still were able to illustrate the point of the project and its functionality
+  
+- **J.F 3.7:** *Acts with integrity with respect to ethical, legal and regulatory ensuring the protection of personal data, safety and security.*
+  - Implemented Auth0 for database access to meet project's security criteria
+
+- **J.F 4.2:** *Knows the principles and uses of relational and non-relational databases*
+  - Project uses relational database (a database that stores data in tables)
+
+- **J.F 4.6:** *Understands how to apply an appropriate software development approach according to the relevant paradigm (for example object oriented, event driven or procedural)*
+  - Project uses Java (object-oriented programming language)
+
+- **J.F 5.5:** *Understands and can apply structured techniques to problem solving, can debug code and can understand the structure of programmes to identify and resolve issues*
+  - Demonstrated the ability to debug through solving the many errors we encountered through attempts to implement an authentication method
