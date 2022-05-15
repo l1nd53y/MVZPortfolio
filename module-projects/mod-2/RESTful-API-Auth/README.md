@@ -71,7 +71,7 @@ Stretch goals (to-do):
 
 ### What I learned
 
-I learned how to implement Auth0 and experienced trying to implement different authentication menthods (basic auth, etc.) in addition to learning how to require a bearer token for security purposes. I also learned about password hashing.
+I learned how to implement Auth0 and experienced trying different authentication menthods (basic auth, etc.) in addition to learning how to require a bearer token for security purposes. I also learned about password hashing.
 
 
 ### Setup:
