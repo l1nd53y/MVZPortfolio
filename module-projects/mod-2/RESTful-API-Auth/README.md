@@ -71,7 +71,7 @@ Stretch goals (to-do):
 
 ### What I learned
 
-I learned how to implement Auth0 and experienced trying to implement different authentication menthods (basic auth, etc.) in addition to learning how to require a bearer token for security purposes.
+I learned how to implement Auth0 and experienced trying to implement different authentication menthods (basic auth, etc.) in addition to learning how to require a bearer token for security purposes. I also learned about password hashing.
 
 
 ### Setup:
@@ -116,4 +116,4 @@ DELETE http://localhost:8080/api/criminals/{id} - delete criminal
   - Project uses Java (object-oriented programming language)
 
 - **J.F 5.5:** *Understands and can apply structured techniques to problem solving, can debug code and can understand the structure of programmes to identify and resolve issues*
-  - Demonstrated the ability to debug through solving the many errors we encountered through attempts to implement an authentication method
+  - Demonstrated the ability to debug through solving the many errors we encountered through attempts to implement an authentication method and ways to hash passwords
