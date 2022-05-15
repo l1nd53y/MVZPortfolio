@@ -49,14 +49,14 @@ Stretch goals (to-do):
 - Node.js
 - React
 - Postman
-- VSCode Live Share
+- VSCode "Live Share" extension
 - Express
 - Git
 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I experienced what it's like to develop an MVP over two days time, and the importance of setting realistic goals in approaching a time-sensitive goal. Using VSCode's "Live Share" extension was also a completely new experience.
 
 
 ### Setup:
@@ -81,5 +81,17 @@ Should then see converted ASCII "image" output in terminal.
 - Ayman (Ayman-zaki)
 
 ## Competencies:
-- **J.F 2.2:** *Understands how to create and analyze artefacts, such as use cases and/or user stories*
-  - Blah
+- **J.F 1.5:** *Knows how teams work effectively to produce software and how to contribute appropriately*
+  - Had to establish successful collaboration quickly in order to achieve MVP in two days
+
+- **J.F 3.1:** *Knows how to design software approaches and patterns, to identify reusable solutions to commonly occurring problems*
+  - Implemented a "reusable" ASCII library in order to accomplish the task
+
+- **J.F 3.6:** *Maintains a productive, professional and secure working environment*
+  - Displayed professionality/productivity in our collaboration for this company-hosted "Hackathon" and while being mentored by company leaders
+
+- **J.F 6.4:** *Works independently and takes responsibility. For example, has a disciplined and responsible approach to risk, and stays motivated and committed when facing challenges*
+  - Persevered during a challenging time-contraint and had to re-evaluate MVP with time/risk in mind
+
+- **J.F 6.7:** *Communicates effectively in a variety of situations to both a technical and nontechnical audience.*
+  - Team had to present this project to a varied audience of both experienced and novice developers
