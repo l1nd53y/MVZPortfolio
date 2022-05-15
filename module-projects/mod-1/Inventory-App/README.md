@@ -86,5 +86,22 @@ $ npm start
 - Afreen (afreensafdar)
 
 ## Competencies:
+  
 - **J.F 1.7:** *Demonstrates creativity and tenacity in their approach to solutions and the methods used to come to a solution for example, sees the task through to the end by devising new solutions and despite obstacles and problems along the way.*
-  - Blah
+  - I had issues while working on the editItemForm.handlebars upon discovering that by the HTML standard, the only valid form methods are GET and POST. While doing some research I discovered that through utilizing the method-override dependency, it was possible to also use PUT the method in creating the form to edit an item.
+
+- **J.F 2.2:** *Understands how to create and analyze artefacts, such as use cases and/or user stories*
+  - Before beginning work on the project, wrote use cases/user stories (above)
+
+- **J.F 3.2:** *Knows relevant and up-to-date software designs and how to read and implement functional/technical specifications*
+  - Was mindful of completing the project according to the criteria we were assigned to meet
+
+- **J.F 4.5:** *Is able to build, manage and deploy code into the relevant environment*
+  - Participated in deploying code and communicating changes, and troubleshooting Git issues when applicable
+
+- **J.F 5.2:** *Understands how to test code and analyze results to correct errors found using unit testing*
+  - Used Jest for testing and when failed tests occurred, analyzed the errors to determine how to fix them
+
+- **J.F 6.4:** *Works independently and takes responsibility. For example, has a disciplined and responsible approach to risk, and stays motivated and committed when facing challenges*
+  - Developed a sense of being able to determine when the amount of time didn't allow for specific solution I was hoping to implement and when to go with a different approach instead - independently troubleshooted problems that occurred during completion of my tasks
+
