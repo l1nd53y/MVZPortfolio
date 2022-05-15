@@ -61,12 +61,11 @@ Stretch goals (to-do):
 - Material-UI
 - Sequelize
 - SQLite3
-- Jest
 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned how to use the MaterialUI framework and how to meet/test for A11Y accessibility standards. See [project presentation](https://github.com/l1nd53y/MVZPortfolio/blob/main/module-projects/mod-1/Wedding-Registry/Wedding-Registry-Presentation.pdf) for details.
 
 
 ### Setup:
@@ -85,5 +84,21 @@ $ npm run start-FrontEnd
 - Nate (nzeru17)
 
 ## Competencies:
-- **J.F 3.3:** *Understands how to develop effective user interfaces*
-  - Blah
+- **J.F 1.5:** *Knows how teams work effectively to produce software and how to contribute appropriately*
+  - Had daily standups while completing this project where we discussed what needed to be worked on and which member would be addressing it
+  
+- **J.F 2.3:** *Applies logical thinking. For example, uses clear and valid reasoning when making decisions related to undertaking work instructions*
+  - Had to modify initial plans for work when a team member was out sick for a large portion of the project, such as re-evaluating our MVP
+
+- **J.F 3.5:** *Understands how to follow software designs and functional/technical specifications*
+  - Meeting A11Y (accessibility) criteria was a specified goal for this project, which we made sure to accomplish (see linked project presentation)
+
+- **J.F 4.4:** *Understands how to create a logical and maintainable codebase*
+  - Created codebase that made sense to the team and our coach
+
+- **J.F 5.4:** *Understands and is able to identify and create test scenarios*
+  - We understood how to test the functionality of the application
+
+- **J.F 6.6:** *Shows initiative for solving problems within their own remit, being resourceful when faced with a problem to solve*
+  - Team had to adjust and be resourceful when we encountered problems due to an absent team member and not all members fully understanding how to complete certain tasks. Using MaterialUI was new for all of us and was challenging at times
+
