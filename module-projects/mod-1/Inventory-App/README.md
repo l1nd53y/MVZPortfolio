@@ -67,7 +67,7 @@ Stretch goals (to-do):
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned a lot about what it's like to work with a team to accomplish the common goal of an MVP. I also learned more about the value of independent research towards devising a solution to a problem.
 
 
 ### Setup:
@@ -88,7 +88,7 @@ $ npm start
 ## Competencies:
   
 - **J.F 1.7:** *Demonstrates creativity and tenacity in their approach to solutions and the methods used to come to a solution for example, sees the task through to the end by devising new solutions and despite obstacles and problems along the way.*
-  - I had issues while working on the editItemForm.handlebars upon discovering that by the HTML standard, the only valid form methods are GET and POST. While doing some research I discovered that through utilizing the method-override dependency, it was possible to also use PUT the method in creating the form to edit an item.
+  - I had issues while working on the editItemForm.handlebars upon discovering that by the HTML standard, the only valid form methods are GET and POST. While doing some research I discovered that through utilizing the method-override dependency, it was possible to also use PUT the method in creating the form to edit an item
 
 - **J.F 2.2:** *Understands how to create and analyze artefacts, such as use cases and/or user stories*
   - Before beginning work on the project, wrote use cases/user stories (above)
