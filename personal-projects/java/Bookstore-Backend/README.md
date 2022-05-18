@@ -59,7 +59,7 @@ Stretch goals (to-do):
 
 ### What I learned
 
-I developed more practice/experience with using Java, the dependencies that can be implemented, and deploying a database. This was also my first time using Swagger UI. The entire process involved a *lot* of debugging, Google research, and <s>coffee</s> Java :)
+I developed more practice/experience with using Java, the dependencies that can be implemented, and deploying a database. This was also my first time using Swagger UI. The entire process involved a *lot* of debugging, Google research, and coffee :)
 
 
 ### Setup:
