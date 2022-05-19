@@ -1,4 +1,4 @@
-# Introduction | Bookstore Ecommerce App (Backend)
+# Introduction | Bookstore Ecommerce App (Frontend)
 
 An ecommerce bookstore application. Frontend setup provides UI for allowing a user to CRUD books and genres, view bookstore inventory by genre, create users, create wishlists, add to cart, and place orders.
 
